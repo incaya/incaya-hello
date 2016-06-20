@@ -1,0 +1,22 @@
+{
+  "name": "incaya-hello",
+  "version": "1.0.0",
+  "description": "an incredible hello react component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel incayahello.js -o index.js",
+    "prepublish": "npm run build"
+  },
+  "author": "Incaya",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0"
+  }
+}
